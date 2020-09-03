@@ -30,7 +30,7 @@
 		((which=='random')?$("#result"):$("#loggedin")).addClass("d-none");
 		((which=='random')?$("#random"):$("#login")).removeClass("d-none");
 		if(which=='login')
-			$("#owned").html('');
+			$("#ownedgame").html('');
 	}	
  //-->
 </script>
